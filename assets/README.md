@@ -1,22 +1,21 @@
-# Social Content — Static Site for Meta App Submission
+# Social Content — Private Meta App
 
-This repository contains a minimal static website to use when submitting the app **Social Content** to Meta (Facebook/Instagram) for review and verification. It is intended to be hosted on GitHub Pages.
+This repository hosts a simple static website for the **Social Content** app — a private, self-use tool for uploading and scheduling content to Meta platforms.
 
-## What is included
-- `index.html` — landing page describing the app, contact info, OAuth redirect URI placeholder, screenshots section.
-- `privacy.html` — simple privacy policy template.
-- `oauth-callback.html` — placeholder page to capture the OAuth redirect.
-- `assets/style.css` — minimal styling.
+## About
+- **Purpose:** Upload and schedule content to Instagram and Facebook through the Meta API.
+- **Usage:** Personal only — not shared, sold, or distributed.
+- **Hosting:** Static site via GitHub Pages.
 
 ## Setup & Deploy to GitHub Pages
-1. Create a new repository on GitHub named `social-content`.
-2. Clone it locally and copy these files into the repo root.
-3. Commit and push.
+1. Create a new repository named `social-content`.
+2. Copy these files to the root folder.
+3. Commit and push to GitHub.
 
 ```bash
 git init
 git add .
-git commit -m "Initial site for Meta app submission"
+git commit -m "Initial private app site"
 git branch -M main
 git remote add origin git@github.com:<your-username>/social-content.git
 git push -u origin main
