@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Social Content — Freelance Social Media Content</title>
+  <meta name="description" content="Social Content — freelance social media content creation and management. App: Social Content. Contact: hello@yourdomain.com">
+  <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <h1>Social Content</h1>
+      <p class="tag">Freelance social media content creation & management</p>
+      <nav>
+        <a href="/">Home</a> · <a href="privacy.html">Privacy Policy</a> · <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <section id="about">
+      <h2>About the app</h2>
+      <p>
+        <strong>Social Content</strong> is a freelance service & demo app used to manage social media posts, scheduling, and analytics for creators and small businesses. This static site documents the app details required for platform verification and OAuth redirect URIs used in Meta App submission.
+      </p>
+      <ul>
+        <li><strong>App Name:</strong> Social Content</li>
+        <li><strong>Owner:</strong> [Your Name]</li>
+        <li><strong>Contact email:</strong> hello@yourdomain.com</li>
+        <li><strong>Website:</strong> https://&lt;github-username&gt;.github.io/social-content/</li>
+      </ul>
+    </section>
+
+    <section id="oauth">
+      <h2>OAuth / Redirect URIs</h2>
+      <p>When submitting the app to Meta, use the following redirect URI(s):</p>
+      <pre>https://&lt;github-username&gt;.github.io/social-content/oauth-callback.html</pre>
+      <p>If you host on a custom domain, replace the origin accordingly.</p>
+    </section>
+
+    <section id="screenshots">
+      <h2>App Screenshots / Demo</h2>
+      <p>Provide screenshots demonstrating the app UI and permission flows. Example placeholders below — replace with real screenshots before submission.</p>
+      <div class="screenshot-grid">
+        <div class="shot">Screenshot 1 (Dashboard)</div>
+        <div class="shot">Screenshot 2 (Connect Instagram)</div>
+        <div class="shot">Screenshot 3 (Permissions)</div>
+      </div>
+    </section>
+
+    <section id="privacy-summary">
+      <h2>Privacy / Data Usage</h2>
+      <p>
+        The app only requests the minimum permissions required to perform content posting and reading analytics for accounts that the user explicitly connects. Access tokens are stored temporarily and refreshed as required.
+      </p>
+      <p>Full privacy policy: <a href="privacy.html">Privacy Policy</a></p>
+    </section>
+
+    <section id="contact">
+      <h2>Contact</h2>
+      <p>If you have questions about this submission or need additional documents for Meta verification, contact:</p>
+      <p><strong>Email:</strong> hello@yourdomain.com</p>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">© <span id="year"></span> Social Content — All rights reserved.</div>
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
