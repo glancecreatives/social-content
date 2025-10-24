@@ -38,25 +38,6 @@ nav a {
   text-decoration: none;
 }
 
-.screenshot-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-  gap: 12px;
-  margin-top: 12px;
-}
-
-.shot {
-  background: #fff;
-  padding: 18px;
-  border-radius: 8px;
-  border: 1px solid #e6eef8;
-  min-height: 110px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color: var(--muted);
-}
-
 .site-footer {
   padding: 18px 0;
   text-align: center;
